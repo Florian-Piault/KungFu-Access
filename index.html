@@ -220,11 +220,7 @@
 					aria-label="quote from the movie"
 					class="special-element"
 				>
-					<div
-						role="listitem"
-						aria-label="important quote"
-						id="rectangle2"
-					></div>
+					<div role="listitem" aria-hidden="true" id="rectangle2"></div>
 					<blockquote>
 						<p itemprop="citation">‘‘You must believe’’</p>
 						<footer>
@@ -280,12 +276,20 @@
 				<span aria-hidden="true" class="separator"></span>
 
 				<section id="comments">
-					<div class="comments-container" role="article">
-						<div class="comment">
-							<div class="author-commentimg">
+					<div role="listbox" aria-label="comments" class="comments-container">
+						<div role="listitem" aria-label="item" class="comment">
+							<div
+								role="img"
+								aria-label="author's profil picture"
+								class="author-commentimg"
+							>
 								<img src="img/author1.png" alt="Jane Doe" />
 							</div>
-							<div class="comment-description">
+							<div
+								role="article"
+								aria-label="comment content"
+								class="comment-description"
+							>
 								<p class="comments-author">Shalvika Sood</p>
 								<p class="date">
 									<time datetime="2018-03-14">August 8, 2018</time> |
@@ -301,14 +305,22 @@
 									because it all comes down to that.
 								</p>
 							</div>
-							<div class="comment-separator"></div>
+							<div aria-hidden="true" class="comment-separator"></div>
 						</div>
 
-						<div class="comment">
-							<div class="author-commentimg">
+						<div role="listbox" aria-label="comments" class="comment">
+							<div
+								role="img"
+								aria-label="author's profil picture"
+								class="author-commentimg"
+							>
 								<img src="img/author2.png" alt="Jane Doe" />
 							</div>
-							<div class="comment-description">
+							<div
+								role="article"
+								aria-label="comment content"
+								class="comment-description"
+							>
 								<p class="comments-author">Jonathan Hetcher</p>
 								<p class="date">
 									<time datetime="2018-08-08">August 8, 2018</time> |
@@ -321,14 +333,22 @@
 									cursus commodo, tortor mauris condimentum nibh, ut
 								</p>
 							</div>
-							<div class="comment-separator"></div>
+							<div aria-hidden="true" class="comment-separator"></div>
 						</div>
 
-						<div class="comment">
-							<div class="author-commentimg">
+						<div role="listbox" aria-label="comments" class="comment">
+							<div
+								role="img"
+								aria-label="author's profil picture"
+								class="author-commentimg"
+							>
 								<img src="img/author3.png" alt="Jane Doe" />
 							</div>
-							<div class="comment-description">
+							<div
+								role="article"
+								aria-label="comment content"
+								class="comment-description"
+							>
 								<p class="comments-author">Matthew Lenneman</p>
 								<p class="date">
 									<time datetime="2018-08-08">August 8, 2018</time> |
@@ -341,13 +361,13 @@
 									cursus commodo, tortor mauris condimentum nibh, ut
 								</p>
 							</div>
-							<div class="comment-separator">
+							<div aria-hidden="true" class="comment-separator">
 								<!--rendre la balise invisible pour les non-voyant-->
 							</div>
 						</div>
 					</div>
 
-					<div class="cta">
+					<div role="button" aria-label="display more comments" class="cta">
 						<a href="#"><p>MORE COMMENTS</p></a>
 					</div>
 				</section>
