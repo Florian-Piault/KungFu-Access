@@ -41,13 +41,13 @@ main h1 {
 main .author {
   font-family: 'Lato', serif;
   margin : 0;
-  color : #979797;
+  color : #797676;
   font-style: italic;
   font-size : 1.3rem;
 }
 
 main .author-name {
-  color: #e6373a;
+  color: #C74E5A;
 }
 
 
@@ -55,13 +55,13 @@ main .date {
   font-size : 1.4rem;
   font-family: 'Lato', sans-serif;
   margin : 0.3rem 0 2rem 0;
-  color : #979797;
+  color : #797676;
   font-style :normal;
 }
 
 main .date a {
   text-decoration: none;
-    color : #979797;
+    color : #797676;
 }
 
 .txt-courant {
@@ -83,7 +83,7 @@ figcaption {
   font-size: 1.1rem;
   line-height: 2.0;
   text-align: left;
-  color: #979797;
+  color: #797676;
 }
 
 
@@ -111,13 +111,13 @@ blockquote p {
 #rectangle1 {
   width: 0.5rem;
   height: 14rem;
-  background-color: #e6373a;
+  background-color:#C74E5A;
 }
 
 #rectangle2 {
   width: 0.5rem;
   height: 6rem;
-  background-color: #e6373a;
+  background-color:#C74E5A;
 }
 
 
@@ -125,7 +125,7 @@ cite {
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 2.0;
-  color: #979797;
+  color: #797676;
   margin : 0;
 }
 
@@ -141,7 +141,7 @@ main h2 {
 
 .txt-courant a {
   font-style: italic;
-  color: #e6373a;
+  color: #C74E5A;
   text-decoration: underline;
 }
 
